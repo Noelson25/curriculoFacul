@@ -1,0 +1,128 @@
+html {
+  background: linear-gradient(0deg, #7c7c7c, #535353);
+}
+html body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 50vw;
+  overflow: hidden;
+}
+html body header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  background: linear-gradient(45deg, #ff512f, #f09819);
+  z-index: 2;
+  color: white;
+  position: absolute;
+  width: 50vw;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.274);
+}
+html body header img {
+  width: 20%;
+  border-radius: 20%;
+  margin-right: 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.281);
+}
+html body header div {
+  width: 40vw;
+  text-align: center;
+}
+html body header div h1 {
+  margin: auto 0;
+}
+html body header div h4 {
+  margin-top: 0;
+}
+html body .container {
+  width: 723px;
+  height: 75vh;
+  background: linear-gradient(45deg, #e0eafc, #cfdef3);
+  display: inline;
+  margin-top: 28vh;
+}
+html body .container .contato {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 723px;
+  margin-top: 20px;
+}
+html body .container .contato #celular {
+  width: 20vw;
+}
+html body .container .contato #telefone {
+  width: 20vw;
+}
+html body .container .contato #email {
+  width: 40vw;
+}
+html body .container div {
+  display: flex;
+  flex-direction: row;
+}
+html body .container div .objetivo {
+  display: inline;
+  text-align: center;
+  width: 250px;
+  margin-left: 60px;
+}
+html body .container div .objetivo h4 {
+  margin-bottom: 0;
+}
+html body .container div .objetivo p {
+  margin-top: 0;
+}
+html body .container div .experiencia {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  left: 80px;
+  margin-bottom: 20px;
+}
+html body .container div .experiencia h4 {
+  margin-bottom: 2px;
+}
+html body .container div .experiencia ul {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+html body .container div .escolaridade {
+  position: relative;
+  left: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+html body .container div .escolaridade h4 {
+  margin-bottom: 0;
+}
+html body .container div .escolaridade ul {
+  padding: 0;
+  list-style-type: none;
+  margin-top: 2px;
+}
+html body .container div .escolaridade ul p {
+  margin: 0ch;
+}
+html body .container div .curso {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  left: 68px;
+}
+html body .container div .curso h4 {
+  margin-bottom: 0;
+}
+html body .container div .curso ul {
+  margin-top: 2px;
+  padding: 0;
+  list-style-type: none;
+}
